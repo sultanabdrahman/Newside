@@ -1,0 +1,428 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+} 
+body{
+    height: 100vh;
+    background-color: #ffffff;
+    block-size: cover;
+    background-position: center;
+}
+ul {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+ul li {
+    margin: 0 10px;
+    
+}
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 5%;
+    box-shadow: 0px 0px 3px #6e6e6e;
+    
+}
+.spacer{
+    flex-grow: 1; 
+}
+
+header ul li{
+    position: relative;
+    float: left;
+    font-size: 18px;
+    font-weight: 800;
+}
+header ul li a:hover{
+    color: #007540;
+}
+
+header ul li a{
+    padding: 15px;
+    color:#000000;
+}
+.wrapper{
+    height: 100vh;
+    padding: 10px 0px;
+}
+.first{
+    padding: 2px;
+    color: #000;
+    height: 40px;
+    width: 140%;
+    font-size: 16px;
+    border-radius:50px;
+    background-color: #fff;
+}
+.second{
+    margin: 10px;
+    height: 40px;
+    width: 102%;
+    font-size: 16px;
+    border-radius:50px;
+    background-color: #000000;
+    color: white;
+}
+.first:hover{
+    background:rgb(221, 221, 221);
+}
+.second:hover{
+    background:rgba(0, 0, 0, 0.747);
+}
+.third:hover{
+    background:#007540d5;
+}
+.ford:hover{
+    background:#cfcf97;
+}
+.five:hover{
+    background:#3547321f;
+}
+
+.six:hover{
+    background:#35473238;
+}
+
+.container{
+    margin: 0;
+    height: 129vh;
+    text-align: center;
+    display: flex;
+    padding: 129px 0px;
+    /* position:absolute;
+    top: 110px; */
+}
+p{
+    font-size:55px;
+    font-weight:800;
+}
+
+h1{
+    padding: 0 15px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.block-2{
+    height:auto;
+    padding: 40px;
+    background-color: #ffafaf2c;
+    padding: 90px 80px;
+    color: #007540;
+}
+
+.third{
+    color: white;
+    height: 40px;
+    width: 40%;
+    font-size: 17px;
+    border-radius:50px;
+    background-color: #007540;
+    border:none;
+}
+
+button{
+    border: 1px solid #000000
+}
+
+.container2{
+    color: #32472f;
+    text-align: center;
+    display: flex;
+    padding: 10px 0px;
+    height: 412px;;
+}
+
+.block-3{
+    padding: 50px;
+    background: #d1d1aa;
+}
+
+
+.ford{
+    color: #354732;
+    padding: 2px;
+    font-weight:bolder;
+    height: 40px;
+    width: 50%;
+    font-size: 16px;
+    border-radius:50px;
+    background: #d1d1aa;
+}
+
+.container2 .block-3 p{
+    font-size: 40px;
+}
+
+.container2 .block-3 h1{
+    font-size: 23px;
+}
+
+.wrapper2{
+
+    padding: 20px 0px;
+}
+.container3{
+    width: 100%;
+    color: #354732;
+    text-align: center;
+    display: flex;
+    padding: 0px 0 ;
+    height: 100%;
+}
+.block-6{
+    background-color: #fff;
+    padding: 50px;
+    background: #d1d1aa;
+    height: 586px;
+}
+
+.wrapper3{
+    padding: 10px 0px;
+}
+
+.five{
+    color: #354732;
+    padding: 2px;
+    height: 40px;
+    width: 40%;
+    font-size: 16px;    
+    border-radius:50px;
+    background: #d1d1aa;
+    font-weight: bolder;
+
+}
+
+.wrapper4{
+    padding: 30px 0px;
+}
+
+.container4{
+    width: 100%;
+    color: #354732;
+    text-align: center;
+    display: flex;
+    padding: 0px 0 ;
+    height: 100%;
+}
+
+.block-7{
+
+    background-color: #fff;
+    padding: 60px;
+    background: #d1d1aa;
+    height: 585px;
+}
+
+.six{
+    color: #354732;
+    padding: 2px;
+    height: 40px;
+    width: 30%;
+    font-size: 16px;    
+    border-radius:50px;
+    background: #d1d1aa;
+    font-weight: bolder;
+
+}
+
+
+.foot{
+    
+    padding: 40px 50px;
+    width: 1000px;
+    height: 80vh;
+    font-size: 20px;
+    line-height: 2.6;
+}
+
+.footer-socials{
+    color: #000;
+    justify-content: space-between;
+    display: flex;
+    width: 100px;
+    width: 30%;
+    padding: 10px 0;
+    font-size: xx-large;
+    
+    
+}
+
+.foot a{
+    color: #000;
+    
+}
+
+.P-block {
+    margin: 0;
+    margin-top: 30px;
+    height: 0px;
+    width: 800px;
+    padding: 0px 100px;
+    font-size: 40px;
+}
+
+.zag p{
+    margin-top: 70px;
+    padding: 0px 100px;
+    font-size: 20px;
+}
+
+.blur{
+    margin-left: 100px;
+    padding: 40px 0px ;
+    width: 1200px;
+    max-width: 90%;
+    height: 140px;
+    background-color:#00000000;
+    display: flex;
+    align-items: center;
+}
+
+.bim{
+    width: 100px;
+    height: 100px;
+    margin-right: 200px; 
+    img{
+        width: 270px;
+        height: 170px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    }
+}
+
+.foot{
+    
+    padding: 40px 50px;
+    width: 1000px;
+    height: 80vh;
+    font-size: 20px;
+    line-height: 2.6;
+}
+
+.footer-socials{
+    color: #000;
+    justify-content: space-between;
+    display: flex;
+    width: 100px;
+    width: 30%;
+    padding: 10px 0;
+    font-size: xx-large;
+    
+    
+}
+
+.foot a{
+    color: #000;
+    
+}
+
+
+.main{
+    padding-top: 130px;
+    margin-top: 70px;
+    position:absolute;
+    display: flex;
+        
+}
+
+.side-menu {
+    padding-right: 200px;
+    width: 450px;
+    position: relative;       
+    left: 100px;           
+    top: 10px;               
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.side-menu a{
+    color: gray;
+}
+.Big a{
+    font-size: larger;
+    color:#000000;
+}
+
+.central-page{
+    background: #ffffff;
+    width: 860px;
+    height: 250vh;
+    
+}
+.peas{
+    font-size: 35px;
+}
+.pish{
+    font-size:30px;
+}
+
+.drinks{
+    display: flex;
+    width: 900px;
+    img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        
+    }
+}
+
+.first-side{
+    height:500px;
+    width: 1000px;
+    background-color: #ffffff;
+    div{
+        display: flex;
+        align-items: center; /* центрирует текст по вертикали */
+        gap: 20px;
+        font-size: larger;
+    }
+    
+} 
+
+.second-side{
+    height:368px;
+    width: 1000px;
+    background-color: #ffffff;
+    div{
+        display: flex;
+        align-items: center; /* центрирует текст по вертикали */
+        gap: 20px;
+        font-size: larger;
+    }
+    
+} 
+
+.third-side{
+    height:240px;
+    width: 1000px;
+    background-color: #ffffff;
+    div{
+        display: flex;
+        align-items: center; /* центрирует текст по вертикали */
+        gap: 20px;
+        font-size: larger;
+    }
+    
+} 
+
+.last-one{
+    margin-left: -400px;
+}
